@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kotha</string>
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
+
+
+    </string-array>
+</resources>

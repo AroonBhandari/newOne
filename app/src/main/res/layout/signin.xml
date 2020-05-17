@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        android:text="Sign In" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:text="Forget password" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:text="Sign In " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:text="----------OR---------" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:text="Sign in with Facebook" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:text="Sign in with Google" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:text="Sign Up" />
+
+
+</LinearLayout>
